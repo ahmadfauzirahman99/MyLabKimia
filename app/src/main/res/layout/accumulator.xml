@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Akumulator (Accu, Aki)"
+
+        android:id="@+id/textView3"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sebuah alat yang dapat menyimpan energi (umumnya energi listrik) dalam bentuk energi kimia. Contoh-contoh akumulator adalah baterai dan kapasitor. Pada umumnya di Indonesia, kata akumulator (sebagai aki atau accu) hanya dimengerti sebagai baterai mobil."
+        android:id="@+id/textView4"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/accumolator"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
+

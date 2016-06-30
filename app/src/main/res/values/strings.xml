@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kamus Kimia</string>
+    <string name="action_settings">Setting</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="txtMol">Mol</string>
+    <string name="txtRgas">R gas</string>
+    <string name="txtTemperatur">Temperatur</string>
+    <string name="txtTekanan">Tekanan</string>
+    <string name="btnHitung">Hitung</string>
+    <string name="txtVolume">Volume</string>
+    <string name="txtJudul">Menghitung Volume Gas</string>
+    <string name="txtLintasan">Lintasan ke-</string>
+    <string name="txtMassa">Massa</string>
+    <string name="txtLebar">Lebar</string>
+    <string name="btnHitung1">Hitung</string>
+    <string name="txtHasil">Hasil</string>
+    <string name="title_activity_baru">BaruActivity</string>
+    <string name="title_activity_lihat">LihatActivity</string>
+    <string name="title_activity_ubah">UbahActivity</string>
+</resources>

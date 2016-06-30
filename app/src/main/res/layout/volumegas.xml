@@ -1,0 +1,133 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HitungVolume" >
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Menghitung Volume Gas"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtMol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#ff000000"
+        android:text="@string/txtMol"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/edtMol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMol"
+        android:layout_below="@+id/txtMol"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtRgas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtMol"
+        android:layout_below="@+id/edtMol"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff000000"
+        android:text="@string/txtRgas"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/edtRgas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtRgas"
+        android:layout_below="@+id/txtRgas"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtTemperatur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtRgas"
+        android:layout_below="@+id/edtRgas"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff000000"
+        android:text="@string/txtTemperatur"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/edtTemperatur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTemperatur"
+        android:layout_below="@+id/txtTemperatur"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/txtTekanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtTemperatur"
+        android:layout_below="@+id/edtTemperatur"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff000000"
+        android:text="@string/txtTekanan"
+        android:textSize="14dp" />
+
+    <EditText
+        android:id="@+id/edtTekanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTekanan"
+        android:layout_below="@+id/txtTekanan"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtTekanan"
+        android:layout_below="@+id/edtTekanan"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnHitung"
+        android:textColor="#f00f00" />
+
+    <TextView
+        android:id="@+id/txtVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnHitung"
+        android:layout_below="@+id/btnHitung"
+        android:layout_marginTop="20dp"
+        android:textColor="#f00f00"
+        android:text="@string/txtVolume"
+        android:textSize="14dp" />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:src="@drawable/go"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

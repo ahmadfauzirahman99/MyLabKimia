@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Glikogenesis"
+            android:id="@+id/textView3"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pelepasan insulin oleh pankreas akibat peningkatan kadar gula darah, sehingga hati mengubah glukosa menjadi glikogen dan asam piruvat, bersamaan dengan pengangkutan glukosa ke dalam otot."
+            android:id="@+id/textView4" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/glikogenesis"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

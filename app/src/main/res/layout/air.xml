@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="AIR"
+            android:id="@+id/textView3"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substansi kimia dengan rumus kimia H2O: satu molekul air tersusun atas dua atom hidrogen yang terikat secara kovalen pada satu atom oksigen, bersifat tidak berwarna, tidak berasa dan tidak berbau pada kondisi standar, yaitu pada tekanan 100 kpa (1 bar) and temperatur 273,15 K (0 °C), merupakan suatu pelarut universal
+Aki Salah satu aplikasi sel volta yang tersusun atas elektroda Pb dan PbO, dalam larutan asam sulfat yang berfungsi sebagai elektrolit"
+            android:id="@+id/textView4" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/air"
+                android:layout_marginTop="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
